@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Muli', sans-serif; */
+}
+
+/* Nav bar */
+.navbar{
+  width: 100%;
+  background: #fff7c0;
+  display: grid;
+  justify-items: center;
+}
+
+.content{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50%;
+  margin: 0 auto;
+  height: 5rem;
+  align-content: center;
+  justify-items: center;
+
+}
+
+.logo{
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  justify-items: center;
+  align-content: center;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.menu a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: #0a1612;
+  /* font-weight: 500; */
+}
+
+.menu a:hover{
+  color: #fa7c92;
+  font-weight: 900;
+}
+
+/* main part */
+.main img{
+  width: 30rem;
+  border-radius: 30rem;
+
+}
