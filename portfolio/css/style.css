@@ -8,13 +8,15 @@ body {
 .box {
   margin: 0;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 12% 80% 8%;
   height: 100vh;
+  width: 100%;
 }
 
 /* Nav bar */
 .navbar {
   width: 100%;
+  height: 100%;
   background: #fff7c0;
   display: grid;
   justify-items: center;
@@ -133,24 +135,123 @@ body {
 
 /* Projects Page */
 
+.projects_box{
+  background: #ecf0f1;
+  display: grid;
+  grid-template-rows: 12% 80% 8%;
+  /* grid-gap: 2rem; */
+}
+
+.projects{
+  display: grid;
+  grid-template-rows: 15% 85%;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.projects_heading{
+  font-size: 3rem;
+  margin: 0;
+  color: #fa7c92;
+}
+
 .cards {
   width: 100%;
-  background: #ecf0f1;
   height: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
-}
+  align-items: center;
+  grid-gap:  1rem;
+} 
 
 .card {
   width: 20rem;
   background: #fff;
-  height: 25rem;
+  height: 30rem;
   display: grid;
   grid-template-rows: 50% 35% 15%;
+  padding: 1rem;
 }
 
 .title {
-  justify-self: center;
-  align-self: center;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background: #66ab8c;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.text{
+  /* padding: 0 0.5rem; */
+  margin: 0.5rem;
+}
+
+.links{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.links a{
+  text-decoration: none;
+}
+
+.source{
+  color: #fff;
+  background: #6ec4db;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.source:hover{
+  border-radius: 0 10px;
+  transition: 0.5s ease;
+  color: #6ec4db;
+  background: #fff;
+}
+
+.view{
+  color: #fff;
+  background: #2ecc71;
+  padding: 0.5rem;
+  border: 3px solid ;
+  border-radius: 5px;
+}
+
+.view:hover{
+  border-radius: 10px 0;
+  transition: 0.5s ease;
+  color: #2ecc71;
+  background: #fff;
+}
+
+/* Contact Page */
+
+.contact_container{
+  height: 100%;
+}
+
+.contact_box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.contact{
+  font-size: 4rem;
+  color: #6ec4db;
+}
+
+.contact_links a{
+  font-size: 2rem;
+  color: #000;
+}
+
+.contact_links a:hover{
+
 }
