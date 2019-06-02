@@ -2,9 +2,9 @@
     // This is a database connection file
     
     $hostname = "localhost";
-    $username = "root";
-    $password ="";
-    $dbname = "project";
+    $username = "packetpz_kamal";
+    $password ="HELERcar";
+    $dbname = "packetpz_kamal";
 
     $conn = mysqli_connect($hostname,$username,$password,$dbname);
         
